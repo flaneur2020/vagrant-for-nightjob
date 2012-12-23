@@ -3,11 +3,12 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'rvm'
+cookbook 'rvm',
+  :git => 'https://github.com/fnichol/chef-rvm.git'
 cookbook 'build-essential'
 cookbook 'ack'
 cookbook 'python'
-cookbook 'ruby'
 cookbook 'tmux'
 cookbook 'vim'
+cookbook 'zsh'
 cookbook 'git'
