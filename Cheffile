@@ -3,13 +3,11 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'rvm', 
-  :github => 'fnichol/chef-rvm'
-cookbook 'build-essential', 
-  :github => 'opscode-cookbooks/build-essential'
-cookbook 'ack', 
-  :github => 'opscode-cookbooks/ack'
+cookbook 'rvm'
+cookbook 'build-essential'
+cookbook 'ack'
+cookbook 'python'
+cookbook 'ruby'
 cookbook 'tmux'
 cookbook 'vim'
-cookbook 'apt'
 cookbook 'git'
